@@ -30,7 +30,11 @@ This is a simple script and the first CLI tool I have build for myself, so error
 
 ## Usage
 * ``goltime``: Returns minutes left until midnight in your local time
+    - Does not print \n to be compatible with my Qtile bar/other widgets
 * ``goltime endt {TIME}``: Returns time left until user-defined endpoint
+    - Time must be written in HHMM format (ex. 1430)
+    - Time must be set in the future
+        * Rejects time that's in the past (for now, read TODO)
 
 # TODO
 - [ ] Finish endt
