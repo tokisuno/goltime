@@ -39,4 +39,7 @@ This is a simple script and the first CLI tool I have build for myself, so error
 # TODO
 - [ ] Finish endt
     - [ ] Don't crash when the user's input has reached past the "goal time"
+- [ ] Add option to display string with text
+    - [ ] Default: ("{minutes} minutes left")
+    - [ ] Roll over until new start time (default: 00:00)
 - [ ] Add option to output with newline
